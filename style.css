@@ -26,14 +26,22 @@ body
     background-color: white;
     flex-basis: 30%;
     display: flex;
-    justify-content: flex-end;
-    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
 }
 .buttons_item
 {
     flex-basis: 25%;
 }
-#input
+.input_wrap_Task
+{
+    font-size: 2rem;
+    margin-right: 2.1rem;
+    color: gray;
+
+}
+.input_wrap_Result
 {
     font-size: 3rem;
     margin-right: 2rem;
