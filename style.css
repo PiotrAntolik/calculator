@@ -1,7 +1,9 @@
 body
 {
-    background-color: gray;
+    background-color: rgb(20, 20, 20);
+    color: white;
     margin: 0;
+ 
 }
 .main
 {
@@ -17,28 +19,49 @@ body
 {
     flex-basis: 70%;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     flex-wrap: wrap;
+    
 
 }
-.input_wrap
+.buttons_wrap button
+{
+    box-sizing: border-box;
+    font-size: 3rem;
+    background-color: black;
+    color: white;
+    border: 2px solid gray;
+    flex-basis: 25.00%;
+    transition: 0.3s;
+}
+
+.buttons_wrap button:hover
 {
     background-color: white;
+    color: black;
+}
+.buttons_wrap button:active
+{
+    background-color: gray;
+    color: black;
+}
+
+
+.input_wrap
+{
+    
     flex-basis: 30%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-end;
 }
-.buttons_item
-{
-    flex-basis: 25%;
-}
+
 .input_wrap_Task
 {
     font-size: 2rem;
     margin-right: 2.1rem;
-    color: gray;
+    color: #cccccc;
 
 }
 .input_wrap_Result
